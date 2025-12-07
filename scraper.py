@@ -27,11 +27,3 @@ def get_website_links(url):
     links = [link.get("href") for link in soup.find_all("a")]
     return [link for link in links if link]
 
-
-get_website_content("https://prabhjotsingh.in/")
-print("urls\n")
-print("urls\n")
-print("urls\n")
-print("urls\n")
-print("urls\n")
-get_website_links("https://prabhjotsingh.in/")
